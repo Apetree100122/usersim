@@ -1,31 +1,98 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.6.33712.159
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "usersim", "src\usersim.vcxproj", "{030A7AC6-14DC-45CF-AF34-891057AB1402}"
+﻿Microsoft Visual Studio 
+Solution File
+Format Version
+12
+# Visual Studio
+Version 17
+VisualStudioVersion
+= 
+176
+.
+337
+121
+:
+59
+Minimum
+VisualStudio
+Version
+=
+10.0.40.
+21.
+91
+Project
+(
+"
+{
+8BC9CEB8
+-
+8B4A-11D0-8D11-00A0C91BC942
+}
+"
+)
+= 
+"
+usersim
+"
+, 
+"src\usersim.vcxproj
+"
+,
+"
+{
+030A7AC6-14DC-45CF-AF34-891057AB1402
+}
+"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "setup_build", "setup_build\setup_build.vcxproj", "{BFB0C59A-3F15-4D80-A65F-9A9A6DCA3334}"
+Project
+(
+"
+{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942
+}
+") =
+"setup_build
+",
+"setup_build\
+setup_build.vcxproj
+", "{
+BFB0C59A-3F15-4D80-A65F-9A9A6DCA3334
+}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sample", "sample\sample.vcxproj", "{C0640FCB-27E2-4C37-82C4-06B479C69F1F}"
+Project("
+{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}
+") = "sample", "sample\sample.vcxproj"
+, "
+{C0640FCB-27E2-4C37-82C4-06B479C69F1F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tests", "tests\tests.vcxproj", "{C7B63CA3-A0B8-4EE3-85C8-A17CB40440BF}"
+Project
+("
+{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}
+") =
+"tests
+", "
+tests\tests.vcxproj"
+, "
+{C7B63CA3-A0B8-4EE3-85C8-A17CB40440BF}
+"
 EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|ARM64 = Debug|ARM64
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
-		MinSizeRel|ARM64 = MinSizeRel|ARM64
-		MinSizeRel|x64 = MinSizeRel|x64
+GlobalSection
+(SolutionConfigurationPlatforms
+) = preSolution
+Debug|ARM64 =
+Debug|ARM64
+Debug|x64 =
+Debug|x64
+Debug|x86 
+MinSizeRel
+|ARM64 
+MinSizeRel|
+MinSizeRel|x64 = MinSizeRel|x64
 		MinSizeRel|x86 = MinSizeRel|x86
 		Release|ARM64 = Release|ARM64
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 		RelWithDebInfo|ARM64 = RelWithDebInfo|ARM64
 		RelWithDebInfo|x64 = RelWithDebInfo|x64
-		RelWithDebInfo|x86 = RelWithDebInfo|x86
-	EndGlobalSection
+		RelWithDebInfo|x86 = RelWithDebInfo|x86EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{030A7AC6-14DC-45CF-AF34-891057AB1402}.Debug|ARM64.ActiveCfg = Debug|x64
 		{030A7AC6-14DC-45CF-AF34-891057AB1402}.Debug|ARM64.Build.0 = Debug|x64
